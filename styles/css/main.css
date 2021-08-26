@@ -1,0 +1,47 @@
+body{
+    width: 100%;
+    min-width: 1230px;
+    font-family: Montserrat,Tahoma,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height:1.25;
+    color: #AE7C78;
+    background-color: #fcfcfc;
+}
+
+
+.main-nav {
+}
+.main-menu-list {
+}
+.main-menu-list__item {
+}
+.main-menu-list__link {
+    font-family: Montserrat,Tahoma,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height:1.25;
+    text-align: center;
+    color: #AE7C78;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+    .main-menu-list__link:visited{
+            
+        color: #5c3d3a;
+    }
+    .main-menu-list__link:hover,
+    .main-menu-list__link:focus{
+        text-decoration: underline;
+        color: #ae7c78bd;
+    }
+
+    .main-menu-list__link:active{
+        text-decoration: underline;
+        color: #976a66;
+    }
+
+    
