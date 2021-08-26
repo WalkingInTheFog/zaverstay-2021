@@ -24,6 +24,34 @@ body{
 }
 
 
+.btn {
+
+    color: #fff;
+    background-color: #D89999;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+    /* display: inline-block;
+   
+    padding:15px 35px;
+
+    border:none;
+
+     */
+}
+
+    .btn:hover,
+    .btn:focus{
+        
+        background-color: #be7d7d9d;
+    }
+
+    .btn:active{
+    
+        background-color: #835252;
+    }
+
 
 .main-nav {
 }
@@ -47,6 +75,7 @@ body{
             
         color: #5c3d3a;
     }
+
     .main-menu-list__link:hover,
     .main-menu-list__link:focus{
         text-decoration: underline;
@@ -58,4 +87,22 @@ body{
         color: #976a66;
     }
 
-    
+    /* lead открывающий блок  */
+
+    .lead__title{
+
+        font-family: 'Playfair Display',serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 44px;
+        line-height: 1.34;
+
+        color: #AE7C78
+
+    }
+
+    .lead p{
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
