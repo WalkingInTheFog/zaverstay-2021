@@ -262,3 +262,28 @@ h2{
     line-height: 20px;
     color: #fff;
 }
+
+
+/* discaunt блок ******************************************************************************************************************** */
+
+.discaunt__grid-layout{
+    background-color: #AE7C78;
+    color:#fff;
+}
+
+.discaunt__title{
+    font-family: 'Playfair Display',serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+}
+
+.discaunt__text{
+    font-family: Montserrat,Tahoma,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
