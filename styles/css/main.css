@@ -315,6 +315,22 @@ h2{
     line-height: 29px;
 }
 
+
+
+
+    .social-list__link:hover svg,
+    .social-list__link:focus svg{
+
+        outline: 1px solid #AE7C78;
+        outline-offset: 2px;
+    }
+
+    .social-list__link:active svg{
+
+        outline-offset: 1px;
+        
+    }
+
 /* review **************************************************************************************** */
 
 .review blockquote{
