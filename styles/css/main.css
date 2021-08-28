@@ -356,3 +356,48 @@ h2{
     text-decoration: underline;
     color: #976a66;
 }
+
+/* main-footer***************************************************************************** */
+
+.main-footer{
+    color:#fff;
+    background-color: #AE7C78;
+}
+
+.footer-menu-list {
+}
+.footer-menu-list__item {
+}
+
+
+.footer-menu-list__link:visited{
+   
+    color: rgb(196, 189, 189);
+
+}
+
+.footer-menu-list__link {
+    font-family: Montserrat,Tahoma,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height:20px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+    
+
+    .footer-menu-list__link:hover,
+    .footer-menu-list__link:focus{
+        text-decoration: underline;
+        color: rgb(230, 227, 227);
+    }
+
+    .footer-menu-list__link:active{
+        text-decoration: underline;
+        color: #fff;
+    }
+
