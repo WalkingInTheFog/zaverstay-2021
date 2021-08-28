@@ -147,6 +147,45 @@ h2{
 
 }
 
+
+
+.slider__control-panel-btn{
+    display: inline-block;
+    width: 50px;
+    height: 15px;
+    border:none;
+
+    background-color: transparent;
+    background-position:50% 50%;
+
+    cursor: pointer;
+}
+
+    .slider__control-panel-btn:hover,
+    .slider__control-panel-btn:focus{
+
+        opacity: 0.6;
+
+    }
+
+    .slider__control-panel-btn:active{
+
+        opacity: 1;
+        background-color: #ae7c786e;
+
+    }
+
+
+.slider__control-panel-btn--left{
+    background-image: url('../../images/decor/arrow-left.svg');
+    
+}
+
+.slider__control-panel-btn--right{
+    background-image: url('../../images/decor/arrow-right.svg');
+}
+
+
 /* карточки выбора букета *******************************************************************************************************************/
 
 .choose-bouquet-list__item{
