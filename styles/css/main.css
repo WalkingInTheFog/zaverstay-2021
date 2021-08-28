@@ -401,3 +401,20 @@ h2{
         color: #fff;
     }
 
+
+    .social-list--footer svg path{
+        fill: #fff;
+    }
+
+    .social-list--footer .social-list__link:hover svg,
+    .social-list--footer .social-list__link:focus svg{
+
+        outline: 1px solid white;
+        outline-offset: 2px;
+    }
+
+    .social-list--footer .social-list__link:active svg{
+
+        outline-offset: 1px;
+        
+    }
