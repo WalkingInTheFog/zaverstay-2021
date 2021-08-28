@@ -10,6 +10,14 @@ body{
     background-color: #fcfcfc;
 }
 
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+
 h2{
     font-family: 'Playfair Display',serif;
     font-style: normal;
@@ -121,7 +129,7 @@ h2{
 /* СЛАЙДЕР */
 
 .slider__title {
-    font-family: Montserrat;
+    font-family: Montserrat,Tahoma,sans-serif;;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -130,11 +138,88 @@ h2{
 
 }
 .slider__price {
-    font-family: Montserrat;
+    font-family: Montserrat,Tahoma,sans-serif;;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #AE7C78;
 
+}
+
+/* карточки выбора букета */
+
+.choose-bouquet-list__item{
+    width: 387px;
+    height: 442px;
+
+
+    background-color: #ffc0cbaf;
+    
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 387px 442px;
+    color:#fff;
+}
+
+
+.choose-bouquet-list__item--wedding{
+    background-image: url('../../images/decor/wedding-bouquet.jpg');
+}
+
+.choose-bouquet-list__item--pion{
+    background-image: url('../../images/decor/pion-bouquet.jpg');
+}
+
+.choose-bouquet-list__item--choose{
+    background-image: url('../../images/decor/choose-bouquet.jpg');
+}
+
+.choose-bouquet-list__link{
+        
+    display: inline-block;
+
+    background-color: rgba(174, 124, 120, 0.6);
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .choose-bouquet-list__link:visited{
+                
+        /* color: rgb(158, 150, 150); */
+    }
+
+    .choose-bouquet-list__link:hover,
+    .choose-bouquet-list__link:focus{
+        
+        background-color: rgba(174, 124, 120, 0.8);
+        
+    }
+
+    .choose-bouquet-list__link:active{
+        
+        background-color: rgba(174, 124, 120,1);
+    }
+
+.choose-bouquet__title {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+
+}
+.choose-bouquet-text {
+    font-family: Montserrat,Tahoma,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
 }
