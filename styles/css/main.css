@@ -101,6 +101,11 @@ h2{
 /* main-header********************************************************************************************************** */
 
 .main-header {
+    min-height: 65px;
+    
+    margin-top: 25px;
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
 }
 
 
@@ -108,17 +113,41 @@ h2{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* основная навигация*********************************************************************************************************** */
 .main-nav {
-}
-.main-menu-list {
-}
-.main-menu-list__item {
+    height: 100%;
 }
 
+.main-menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    
+    align-items: center;
+    
+
+}
+
+
+
+.main-menu-list__item:nth-child(3) {
+margin-right: 45px;
+}
+
+.main-menu-list__item:nth-child(4) {
+    margin-left: 45px;
+    }
+
 .main-menu-list__link {
+    
+    display: block;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
     font-family: Montserrat,Tahoma,sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -145,6 +174,8 @@ h2{
         text-decoration: underline;
         color: #976a66;
     }
+
+
 
     /* lead открывающий блок  **********************************************************************************************************/
 
