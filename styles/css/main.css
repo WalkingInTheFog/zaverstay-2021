@@ -31,6 +31,7 @@ h2{
 
 
 .container{
+    position: relative;
     width: 1230px;
     max-width: 1230px;
     min-width: 1230px;
@@ -94,9 +95,12 @@ h2{
 
 .main-header {
 }
-.container {
-}
+
+
 .main-logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* основная навигация*********************************************************************************************************** */
