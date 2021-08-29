@@ -17,6 +17,13 @@ body{
     transition: all 0.5s;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    outline: 0;
+
+}
 
 h2{
     font-family: 'Playfair Display',serif;
@@ -102,7 +109,7 @@ h2{
 
 .main-header {
     min-height: 65px;
-    
+    margin-bottom: 82px;
     margin-top: 25px;
     border-top: 1px solid #AE7C78;
     border-bottom: 1px solid #AE7C78;
@@ -179,22 +186,18 @@ margin-right: 45px;
 
     /* lead открывающий блок  **********************************************************************************************************/
 
-    .lead {
-    }
-    .container {
-    }
+    
     .lead__grid-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
     }
     .lead__grid-layout-col {
     }
-    .lead__title {
-    }
-    .btn {
-    }
-    .lead__bouquet-img {
-    }
-    
+  
     .lead__title{
+        margin-top: 0;
+        margin-bottom: 24px;
 
         font-family: 'Playfair Display',serif;
         font-style: normal;
@@ -207,9 +210,17 @@ margin-right: 45px;
     }
 
     .lead p{
+        margin-top: 0;
+        margin-bottom: 64px;
         font-size: 24px;
         line-height: 1.2;
     }
+    .btn {
+    }
+    .lead__bouquet-img {
+    }
+    
+   
 
 
 /* СЛАЙДЕР ***********************************************************************************************************************************/
