@@ -198,8 +198,7 @@ margin-right: 45px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 20px;
-    }
-    .lead__grid-layout-col {
+        margin-bottom: 48px;
     }
   
     .lead__title{
@@ -226,6 +225,54 @@ margin-right: 45px;
     }
     .lead__bouquet-img:first-of-type {
         margin-top:58px;
+    }
+
+    .features-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+    
+    .features-list__inner{
+        position: relative;
+        padding-left: 101px;
+    }
+
+
+        .features-list__inner:before{
+            content:'';
+            left:0;
+            position: absolute;
+            width: 81px;
+            height: 52px;
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+
+
+        .features-list__inner:nth-child(1):before{
+
+            background-image: url(../../images/decor/truck.svg);
+
+        }
+
+        
+        .features-list__inner:nth-child(2):before{
+
+            background-image: url(../../images/decor/bouquet.svg);
+
+        }
+
+        
+        .features-list__inner:nth-child(3):before{
+
+            background-image: url(../../images/decor/camera.svg);
+
+        }
+
+    
+    .features-list__inner dt{
+        margin-bottom: 8px;
     }
     
    
