@@ -188,6 +188,7 @@ margin-right: 45px;
 
     
     .lead__grid-layout {
+        height: ;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 20px;
@@ -217,7 +218,8 @@ margin-right: 45px;
     }
     .btn {
     }
-    .lead__bouquet-img {
+    .lead__bouquet-img:first-of-type {
+        margin-top:58px;
     }
     
    
