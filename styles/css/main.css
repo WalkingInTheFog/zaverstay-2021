@@ -347,6 +347,7 @@ margin-right: 45px;
 
 .slider__control-panel{
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .slider__control-panel-btn{
@@ -388,6 +389,28 @@ margin-right: 45px;
 
 /* карточки выбора букета *******************************************************************************************************************/
 
+
+.choose-bouquet-list {
+    display: flex;
+
+}
+
+.choose-bouquet-list__item {
+    width: 388px;
+    max-width: 388px;
+    min-width: 388px;
+
+    height: 442px;
+    min-height: 442px;
+    max-height: 442px;
+
+    border-radius: 10px;
+}
+
+    .choose-bouquet-list__item:not(:last-child){
+        margin-right: 20px;
+    }
+
 .choose-bouquet-list__item{
     width: 387px;
     height: 442px;
@@ -415,13 +438,22 @@ margin-right: 45px;
 }
 
 .choose-bouquet-list__link{
-        
-    display: inline-block;
+            
+    display: flex;
+    flex-direction: column;
 
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    
     background-color: rgba(174, 124, 120, 0.6);
     color:#fff;
     text-align: center;
     text-decoration: none;
+
+    border-radius: 10px;
 }
 
     .choose-bouquet-list__link:visited{
@@ -442,6 +474,9 @@ margin-right: 45px;
     }
 
 .choose-bouquet__title {
+    margin: 0;
+    margin-bottom: 8px;
+
     color: #fff;
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -452,9 +487,10 @@ margin-right: 45px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
-
+    
 }
 .choose-bouquet-text {
+    margin: 0;
     font-family: Montserrat,Tahoma,sans-serif;
     font-style: normal;
     font-weight: normal;
