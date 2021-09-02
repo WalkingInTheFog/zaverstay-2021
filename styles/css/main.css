@@ -283,16 +283,52 @@ margin-right: 45px;
 
 /* СЛАЙДЕР ***********************************************************************************************************************************/
 
+.slider {
+    margin: 0 auto;
+    max-width: 794px;
+    width: 794px;
+
+    display:flex;
+    margin-bottom: 25px;
+}
+
+
+.slider__text-side {
+    margin-right: 20px;
+    width: 387px;
+    max-width: 387px;
+    min-width: 387px;
+}
+
+.slider__img-side {
+    width: 387px;
+    max-width: 387px;
+    min-width: 387px;
+}
+
+
 .slider__title {
+    margin-bottom: 20px;
+    
     font-family: Montserrat,Tahoma,sans-serif;;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #AE7C78;
-
 }
+ 
+.slider__desc{
+    margin-bottom: 25px;
+}
+
+.slider__size {
+    margin-bottom: 25px;
+}
+
 .slider__price {
+    margin-bottom: 64px;
+ 
     font-family: Montserrat,Tahoma,sans-serif;;
     font-style: normal;
     font-weight: 500;
@@ -303,6 +339,15 @@ margin-right: 45px;
 }
 
 
+.slider .btn{
+    
+}
+
+/*панель управления слайдером************************************************************************************/
+
+.slider__control-panel{
+    text-align: center;
+}
 
 .slider__control-panel-btn{
     display: inline-block;
