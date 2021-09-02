@@ -378,6 +378,7 @@ margin-right: 45px;
 
 
 .slider__control-panel-btn--left{
+    margin-right: 20px;
     background-image: url('../../images/decor/arrow-left.svg');
     
 }
@@ -392,6 +393,7 @@ margin-right: 45px;
 
 .choose-bouquet-list {
     display: flex;
+    margin-bottom: 80px;
 
 }
 
