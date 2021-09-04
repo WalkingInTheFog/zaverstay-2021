@@ -239,8 +239,7 @@ margin-right: 45px;
         font-size: 24px;
         line-height: 1.2;
     }
-    .btn {
-    }
+   
     .lead__bouquet-img:first-of-type {
         margin-top:58px;
     }
@@ -354,10 +353,6 @@ margin-right: 45px;
 }
 
 
-.slider .btn{
-    
-}
-
 /*панель управления слайдером************************************************************************************/
 
 .slider__control-panel{
@@ -465,10 +460,6 @@ margin-right: 45px;
     border-radius: 10px;
 }
 
-    .choose-bouquet-list__link:visited{
-                
-        /* color: rgb(158, 150, 150); */
-    }
 
     .choose-bouquet-list__link:hover,
     .choose-bouquet-list__link:focus{
