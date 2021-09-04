@@ -504,12 +504,44 @@ margin-right: 45px;
 
 /* discaunt блок ******************************************************************************************************************** */
 
+.discaunt{
+    margin-bottom: 80px;
+}
+
 .discaunt__grid-layout{
+
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.discaunt__text-side{
+    width: 610px;
+    max-width: 610px;
+    min-width: 610px;
+
+    padding: 35px 102px;
+
     background-color: #AE7C78;
     color:#fff;
 }
 
+.discaunt__img-side{
+    width: 590px;
+    max-width: 590px;
+    min-width: 590px;
+    background-color: #AE7C78;
+}
+
+    .discaunt__img-side img{
+        display: block;
+    }
+
+
 .discaunt__title{
+    margin: 0;
+    margin-bottom: 25px;
+
     font-family: 'Playfair Display',serif;
     font-style: normal;
     font-weight: normal;
@@ -519,6 +551,8 @@ margin-right: 45px;
 }
 
 .discaunt__text{
+    margin: 0;
+
     font-family: Montserrat,Tahoma,sans-serif;
     font-style: normal;
     font-weight: normal;
