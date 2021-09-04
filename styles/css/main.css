@@ -712,6 +712,14 @@ margin-right: 45px;
 
 /* review **************************************************************************************** */
 
+.review__inner{
+
+    border:1px solid #AE7C78;
+
+}
+
+
+
 .review blockquote{
     text-align: center;
 }
