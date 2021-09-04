@@ -781,7 +781,8 @@ margin-right: 45px;
     min-width: 386px;
     margin-left: 102px;
     margin-top: 52px;
-    padding: 40px 35px;
+    padding: 40px 35px 0 35px;
+    border: 1px solid transparent;
 
 
     border-radius: 10px;
