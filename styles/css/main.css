@@ -713,19 +713,57 @@ margin-right: 45px;
 
 /* review **************************************************************************************** */
 
+.review{
+    margin-bottom: 75px;
+}
+
+.review h2{
+    margin-top:0;
+    margin-bottom: 40px;
+}
+
 .review__inner{
+
+    padding: 40px 45px;
 
     border:1px solid #AE7C78;
 
 }
 
+.review-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+    .review-list__item{
+        width: 300px;
+        max-width: 300px;
+        min-width: 300px;
+        margin-bottom: 20px;
+
+    }
+
+    .review-list__item:not(:nth-child(3n)){
+        margin-right: 103px;
+    }
 
 
 .review blockquote{
+    margin: 0;
     text-align: center;
+
+}
+
+.review p{
+    margin: 0;
+    margin-bottom: 16px;
 }
 
 .review cite{
+
+    display: block;
+
     font-weight: 500;
     font-style: normal;
 }
