@@ -406,6 +406,7 @@ margin-right: 45px;
 
 .choose-bouquet-list {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 80px;
 
 }
@@ -415,28 +416,27 @@ margin-right: 45px;
     max-width: 388px;
     min-width: 388px;
 
-    height: 442px;
     min-height: 442px;
-    max-height: 442px;
-
+ 
     border-radius: 10px;
+    margin-bottom: 20px;
+
+    background-color: #ffc0cbaf;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    color:#fff;
 }
 
-    .choose-bouquet-list__item:not(:last-child){
-        margin-right: 20px;
+    .choose-bouquet-list__item:not(:nth-child(3n)){
+        margin-right: 18px;
     }
 
 .choose-bouquet-list__item{
-    width: 387px;
-    height: 442px;
+   
 
 
-    background-color: #ffc0cbaf;
-    
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 387px 442px;
-    color:#fff;
+  
 }
 
 
