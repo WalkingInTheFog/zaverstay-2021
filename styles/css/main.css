@@ -562,9 +562,67 @@ margin-right: 45px;
 
 /* steps-bouquet **************************************************************************************************************** */
 
+.steps-to-the-bouquet{
+    margin-bottom: 80px;
+}
+
+.steps-to-the-bouquet__title{
+    margin-bottom: 40px;
+}
+
+.steps-bouquet-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.steps-bouquet-list__title {
+    margin: 0;
+    margin-bottom: 8px;
+}
+.steps-bouquet-list__text {
+    margin: 8px 0;
+}
+
 .steps-bouquet-list__item{
+    position: relative;
+    padding-top: 60px;
     text-align: center;
 }
+
+    .steps-bouquet-list__item::before{
+
+        content: "";
+        position: absolute;
+        left: 50%;
+        top:0;
+        width: 82px;
+        height: 52px;
+        transform: translateX(-50%);
+
+        background-position:center center;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .steps-bouquet-list__item--notebook:before{
+        background-image:url('../../images/decor/notebook.svg');
+    }
+
+    .steps-bouquet-list__item--female:before{
+        background-image:url('../../images/decor/female.svg') ;
+    }
+
+    .steps-bouquet-list__item--pay:before{
+        background-image:url('../../images/decor/cart.svg') ;
+    }
+
+
+    .steps-bouquet-list__item--truck:before{
+        background-image:url('../../images/decor/truck.svg') ;
+    }
 
 .steps-bouquet-list__title{
     font-weight: 500;
