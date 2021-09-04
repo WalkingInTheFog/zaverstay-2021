@@ -304,7 +304,7 @@ margin-right: 45px;
     width: 794px;
 
     display:flex;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 
@@ -324,7 +324,7 @@ margin-right: 45px;
 
 .slider__title {
     margin-bottom: 20px;
-    
+    margin-top: 31px;
     font-family: Montserrat,Tahoma,sans-serif;;
     font-style: normal;
     font-weight: 500;
@@ -362,7 +362,7 @@ margin-right: 45px;
 
 .slider__control-panel{
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 72px;
 }
 
 .slider__control-panel-btn{
@@ -409,7 +409,7 @@ margin-right: 45px;
 .choose-bouquet-list {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 
 }
 
@@ -527,7 +527,7 @@ margin-right: 45px;
     max-width: 610px;
     min-width: 610px;
 
-    padding: 35px 102px;
+    padding: 41px 102px;
 
     background-color: #AE7C78;
     color:#fff;
@@ -570,11 +570,11 @@ margin-right: 45px;
 /* steps-bouquet **************************************************************************************************************** */
 
 .steps-to-the-bouquet{
-    margin-bottom: 80px;
+    margin-bottom: 73px;
 }
 
 .steps-to-the-bouquet__title{
-    margin-bottom: 40px;
+    margin-bottom: 37px;
 }
 
 .steps-bouquet-list {
@@ -585,6 +585,10 @@ margin-right: 45px;
 
 
 .steps-bouquet-list__title {
+    font-family: Montserrat,Tahoma,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
     margin: 0;
     margin-bottom: 8px;
 }
@@ -594,7 +598,7 @@ margin-right: 45px;
 
 .steps-bouquet-list__item{
     position: relative;
-    padding-top: 60px;
+    padding-top: 59px;
     text-align: center;
 }
 
@@ -631,9 +635,7 @@ margin-right: 45px;
         background-image:url('../../images/decor/truck.svg') ;
     }
 
-.steps-bouquet-list__title{
-    font-weight: 500;
-}
+
 
 /* subscribe ********************************************************************************* */
 
@@ -794,6 +796,7 @@ margin-right: 45px;
     .map__address h2{
         margin: 0;
         margin-bottom: 42px;
+        letter-spacing: 0;
     }
 
     .map__address dt{
