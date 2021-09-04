@@ -432,14 +432,6 @@ margin-right: 45px;
         margin-right: 18px;
     }
 
-.choose-bouquet-list__item{
-   
-
-
-  
-}
-
-
 .choose-bouquet-list__item--wedding{
     background-image: url('../../images/decor/wedding-bouquet.jpg');
 }
@@ -771,17 +763,43 @@ margin-right: 45px;
 /* map ************************************************************************** */
 
 .map{
+    min-height: 645px;
     background-color:#ae7c78b4 ;
-    background-image:url(../../images/content/map.png);
+    
     background-repeat: no-repeat;
-    background-size: 1440px 645px;
+    background-size: cover;
     background-position: center center;
 }
 
+.map .container{
+    border-top: 1px solid transparent;
+}
+
 .map__address{
+    width: 386px;
+    max-width: 386px;
+    min-width: 386px;
+    margin-left: 102px;
+    margin-top: 52px;
+    padding: 40px 35px;
+
+
+    border-radius: 10px;
     background-color: #fff;
 }
 
+    .map__address h2{
+        margin: 0;
+        margin-bottom: 42px;
+    }
+
+    .map__address dt{
+        margin-bottom: 14px;
+    }
+
+    .map__address dd{
+        margin-bottom: 32px;
+    }
 
 .map__address dl a{
     color: inherit;
