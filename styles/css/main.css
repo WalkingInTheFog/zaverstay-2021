@@ -116,6 +116,7 @@ h2{
 
 .social-list{
     display: flex;
+    align-items: center;
     
 }    
 
@@ -821,14 +822,36 @@ margin-right: 45px;
 /* main-footer***************************************************************************** */
 
 .main-footer{
+    padding-top:30px;
+    padding-bottom:30px;
     color:#fff;
     background-color: #AE7C78;
 }
 
+    .main-footer__grid-layout{
+        display: flex;
+    }
+
+    .footer-logo{
+        margin-right: 103px;
+    }
+
 .footer-menu-list {
+    margin-right: -68px;
+   
+    width: 794px;
+    min-width: 794px;
+    max-width: 794px;
+
+    display: flex;
+    align-items: center;
+    
+
 }
-.footer-menu-list__item {
+.footer-menu-list__item{
+    margin-right:68px;
 }
+
 
 
 .footer-menu-list__link:visited{
@@ -846,6 +869,7 @@ margin-right: 45px;
     text-align: center;
     color: #fff;
     text-decoration: none;
+    white-space: nowrap;
     
 }
 
@@ -862,6 +886,10 @@ margin-right: 45px;
         color: #fff;
     }
 
+
+    .social-list--footer{
+        margin-left: auto;
+    }
 
     .social-list--footer svg path{
         fill: #fff;
