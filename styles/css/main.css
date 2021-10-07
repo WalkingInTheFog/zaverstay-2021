@@ -302,10 +302,13 @@ margin-right: 45px;
     max-width: 794px;
     width: 794px;
 
+   
+}
+
+.slider__item{
     display:flex;
     margin-bottom: 10px;
 }
-
 
 .slider__text-side {
     margin-right: 20px;
