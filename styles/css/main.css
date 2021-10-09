@@ -270,21 +270,21 @@ margin-right: 45px;
         }
 
 
-        .features-list__inner:nth-child(1):before{
+        .icon-truck:before{
 
             background-image: url(../../images/decor/truck.svg);
 
         }
 
         
-        .features-list__inner:nth-child(2):before{
+        .icon-bouquet:before{
 
             background-image: url(../../images/decor/bouquet.svg);
 
         }
 
         
-        .features-list__inner:nth-child(3):before{
+        .icon-camera:before{
 
             background-image: url(../../images/decor/camera.svg);
 
