@@ -117,11 +117,25 @@ h2{
 .social-list{
     display: flex;
     align-items: center;
-    
+    flex-wrap: wrap;
+       
 }    
 
-    .social-list li:not(:last-child){
-        margin-right: 20px;
+    .social-list li{
+        margin: 10px;
+    }
+
+    .social-list__link:hover svg,
+    .social-list__link:focus svg{
+
+        outline: 1px solid #AE7C78;
+        outline-offset: 2px;
+    }
+
+    .social-list__link:active svg{
+
+        outline-offset: 1px;
+        
     }
 
 
@@ -677,18 +691,7 @@ margin-right: 45px;
 
 
 
-    .social-list__link:hover svg,
-    .social-list__link:focus svg{
-
-        outline: 1px solid #AE7C78;
-        outline-offset: 2px;
-    }
-
-    .social-list__link:active svg{
-
-        outline-offset: 1px;
-        
-    }
+    
 
 
     .gallery {
@@ -898,9 +901,19 @@ margin-right: 45px;
         color: #fff;
     }
 
+.social-list-footer-wrapper{
+    margin-left: auto;
+}
+
 
     .social-list--footer{
-        margin-left: auto;
+       
+        width: 120px;
+        max-width: 120px;
+        min-width: 120px;
+
+        margin-left: -10px;
+        margin-right: -10px;
     }
 
     .social-list--footer svg path{
