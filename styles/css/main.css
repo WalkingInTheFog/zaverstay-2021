@@ -846,11 +846,12 @@ margin-right: 45px;
     }
 
 .footer-menu-list {
-    margin-right: -68px;
+    margin-right: -34px;
+    margin-left: -34px;
    
-    width: 794px;
-    min-width: 794px;
-    max-width: 794px;
+    width: 862px;
+    min-width: 862px;
+    max-width: 862px;
 
     display: flex;
     align-items: center;
@@ -859,8 +860,8 @@ margin-right: 45px;
 
 }
 .footer-menu-list__item{
-    margin-right:68px;
-    margin-bottom: 20px;
+    padding: 10px 34px 10px 34px;
+    
 }
 
 
