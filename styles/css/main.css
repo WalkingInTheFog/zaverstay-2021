@@ -789,6 +789,7 @@ margin-right: 45px;
     min-width: 386px;
     margin-left: 102px;
     margin-top: 52px;
+    margin-bottom: 95px;
     padding: 40px 35px 0 35px;
     border: 1px solid transparent;
 
@@ -853,11 +854,13 @@ margin-right: 45px;
 
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     
 
 }
 .footer-menu-list__item{
     margin-right:68px;
+    margin-bottom: 20px;
 }
 
 
